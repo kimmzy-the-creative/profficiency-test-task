@@ -17,14 +17,16 @@
             <img src="gold\masterbrand.png" alt="logo" class="logo">
                 
         </div>
-        <div class="navbar">
-            <div class="nav-link"></div>
-            <div class="nav-link">Introduction</div>
-            <div class="nav-link">For Careers</div>
-            <div class="nav-link">For Care Organizations</div>
-            <div class="nav-link">About</div>
-            <div class="nav-link">Contact Us</div>
-            <div class="nav-link"> </div>
+        <div>
+        <nav class="navbar">
+            <ul>
+            <li> <a href="#">Introduction</a> </li>
+            <li> <a href="#">For Careers</a> </li>
+            <li> <a href="#">For Care Organizations</a> </li>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Contact Us</a> </li>
+        </ul>
+        </nav>
     </div>
     </header>
 
@@ -50,18 +52,26 @@
                 </p>
             </div>
         </div>
-        <div class="feature">
-            <div class="card">
-                <li> Feature 1 <p>professionally initiate next generation<br> applications whereas one-to-one<br> manufactured products</p></li>
-                <li> Feature 2</li>
-                <li>Feature 3</li>
-                <li>Feature 4</li>
-                <li>Feature 5</li>
-            </div>
-            <div >
-                <img src="gold\feature1.png" alt="feature1">
-            </div>
-        </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Feature1</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Feature 2</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Feature 3</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <h3>Feature 1</h3>
+            <p>Blah blah.</p>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <h3>Feature 2</h3>
+            <p>blah bla.</p> 
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h3>Feature 3</h3>
+            <p>blah blah</p>
+          </div>
 
     <div>
 
